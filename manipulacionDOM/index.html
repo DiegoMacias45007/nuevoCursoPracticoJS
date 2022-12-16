@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="Recapituland cómo es que funciona la manipulación del DOM">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Recapituland cómo es que funciona la manipulación del DOM"
+    />
     <title>Manipulación del DOM básica - Curso Práctico de JS</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section>
-            <h1>Manipulación del DOM básica - Curso Práctico de JS</h1>
-        </section>
+      <section>
+        <h1 class="verde">
+          Manipulación del DOM básica - Curso Práctico de JS
+        </h1>
+      </section>
     </header>
     <main>
-        <section>
-            <p>Este es un párrafo</p>
-            <p class="parrafito">Este es un párrafo con clase</p>
-            <p class="pid">Este es un párrafo con ID</p>
-        </section>
+      <section>
+        <input
+          type="text"
+          name="input"
+          placeholder="Escribe algo aqui"
+          value="123"
+          id="input1"
+        />
+        <input
+          type="text"
+          name="input"
+          placeholder="Escribe algo aqui"
+          value="456"
+          id="input2"
+          onchange="console.log('hola')"
+        />
+        <!-- Con onchange puedes ejecutar una accion en cuanto se genere un cambio en la etiqueta -->
+      </section>
     </main>
     <script src="./js/index.js "></script>
-</body>
+  </body>
 </html>
