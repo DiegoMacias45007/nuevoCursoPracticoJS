@@ -42,4 +42,3 @@ img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c
 console.log(img);
 
 pid.append(img); // Agrega un elemento a la etiqueta seleccionada, no lo borra, al igual que appendChild
-
